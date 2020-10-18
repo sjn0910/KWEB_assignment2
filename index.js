@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
     } catch(e) {
         res.statusCode = 500;
         res.setHeader('Content-Type', 'text/plain');
-        res.end('Internal error issued');
+        res.end('Internal error issued.');
     }
 });
 
